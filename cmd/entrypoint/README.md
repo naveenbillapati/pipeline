@@ -1,6 +1,6 @@
 # entrypoint
 
-This binary is used to override the entrypoint of a container by
+This binary is used to override the entrypoint of a container by 
 wrapping it and executing original entrypoint command in a subprocess.
 
 Tekton uses this to make sure `TaskRun`s' steps are executed in order, only
